@@ -62,16 +62,24 @@ main {
 
 /* NAVBAR SEARCH */
 .ms_navbar-search {
-    width: 80%;
+    width: 65%;
     margin-left: .6rem;
     background-color: rgb(212, 214, 214);
     border-radius: 5px;
 }
 
+
 form:hover { background-color: white;}
 
 
 /* MEDIA-QUERY STARTER */
+
+@media screen and (min-width: 442px) {
+    .ms_navbar-search {
+        width: 75%;
+    }
+
+}    
 
 @media screen and (min-width: 992px) {
     .ms_sidebar {
@@ -81,13 +89,20 @@ form:hover { background-color: white;}
     .ms_content {
         width: calc (100% - 180px);
     }
+    .ms_navbar-search {
+        width: 100%;
+    }
 }
+
 
 /* IMMAGE HEADER SECTION */
 
 .ms_small-img img {
     height: 60px;
 }
+
+
+
 
 
 
