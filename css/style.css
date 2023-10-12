@@ -5,26 +5,22 @@ img {
     max-width: 100%;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+}
 
 
 
-/* MY STYLE ELEMENTS */
+/* MY STYLE BIG CONTAINERS */
 .ms_wrapper {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
 }
 
-header {
-    width: 100%;
-    height: 60px;
-    background-color: aliceblue;
-}
-
-main {
-    width: 100%;
-    height: calc(100% - 60px);
-}
 
 .ms_sidebar {
     width: 80px;
@@ -40,8 +36,58 @@ main {
     overflow-y: auto;
 }
 
+
+
+/* HEADER AND MAIN */
+header {
+    width: 100%;
+    height: 60px;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+
+/* FORM */
+.ms_form-header input {
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+/* NAVBAR SEARCH */
+.ms_navbar-search {
+    width: 80%;
+    margin-left: .6rem;
+    background-color: rgb(212, 214, 214);
+    border-radius: 5px;
+}
+
+form:hover { background-color: white;}
+
+
 /* MEDIA-QUERY STARTER */
 
- 
+@media screen and (min-width: 992px) {
+    .ms_sidebar {
+        width: 180px;
+    }
+
+    .ms_content {
+        width: calc (100% - 180px);
+    }
+}
+
+/* IMMAGE HEADER SECTION */
+
+.ms_small-img img {
+    height: 60px;
+}
+
 
 
