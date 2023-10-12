@@ -1,0 +1,47 @@
+
+/* COMMON */
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/* MY STYLE ELEMENTS */
+.ms_wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.ms_sidebar {
+    width: 80px;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(24, 89, 145);
+}
+
+.ms_content {
+    width: calc(100% - 80px);
+    height: 100%;
+    background-color: beige;
+    overflow-y: auto;
+}
+
+/* MEDIA-QUERY STARTER */
+
+ 
+
+
