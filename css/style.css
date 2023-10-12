@@ -104,7 +104,16 @@ form:hover { background-color: white;}
 }
 
 
+/* CONTENT */
+
+/* JUMBOTRON */
+
+.ms_jumbotron {
+    background-color: blue;
+    color: white;
+}
 
 
-
-
+.ms_btn-newstudent {
+    padding: 0 .4rem;
+}
